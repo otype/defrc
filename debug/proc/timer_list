@@ -1,0 +1,72 @@
+Timer List Version: v0.3
+HRTIMER_MAX_CLOCK_BASES: 2
+now at 5720137964520 nsecs
+
+cpu: 0
+ clock 0:
+  .index:      0
+  .resolution: 1 nsecs
+  .get_time:   ktime_get_real
+  .offset:     1241123220374418560 nsecs
+active timers:
+ #0: <c2325e88>, alarm_timer_triggered, S:01
+ # expires at 1241128980000000000 nsecs [in 1241123259862035480 nsecs]
+ #1: <c2325e88>, alarm_timer_triggered, S:01
+ # expires at 1241130711398000000 nsecs [in 1241124991260035480 nsecs]
+ #2: <c2325e88>, alarm_timer_triggered, S:01
+ # expires at 1241231429302453482 nsecs [in 1241225709164488962 nsecs]
+ clock 1:
+  .index:      1
+  .resolution: 1 nsecs
+  .get_time:   ktime_get
+  .offset:     0 nsecs
+active timers:
+ #0: <c2325e88>, tick_sched_timer, S:01
+ # expires at 5720140000000 nsecs [in 2035480 nsecs]
+ #1: <c2325e88>, hrtimer_wakeup, S:01
+ # expires at 5721104087872 nsecs [in 966123352 nsecs]
+ #2: <c2325e88>, hrtimer_wakeup, S:01
+ # expires at 5724601709286 nsecs [in 4463744766 nsecs]
+ #3: <c2325e88>, hrtimer_wakeup, S:01
+ # expires at 5775749528681 nsecs [in 55611564161 nsecs]
+ #4: <c2325e88>, hrtimer_wakeup, S:01
+ # expires at 5779834066174 nsecs [in 59696101654 nsecs]
+ #5: <c2325e88>, hrtimer_wakeup, S:01
+ # expires at 7200004365699 nsecs [in 1479866401179 nsecs]
+ #6: <c2325e88>, hrtimer_wakeup, S:01
+ # expires at 10252318082129 nsecs [in 4532180117609 nsecs]
+ #7: <c2325e88>, hrtimer_wakeup, S:01
+ # expires at 14690944094135 nsecs [in 8970806129615 nsecs]
+ #8: <c2325e88>, hrtimer_wakeup, S:01
+ # expires at 16777245242171251 nsecs [in 16771525104206731 nsecs]
+  .expires_next   : 5720140000000 nsecs
+  .hres_active    : 1
+  .nr_events      : 380724
+  .nohz_mode      : 2
+  .idle_tick      : 5715930000000 nsecs
+  .tick_stopped   : 0
+  .idle_jiffies   : 541593
+  .idle_calls     : 18216
+  .idle_sleeps    : 12500
+  .idle_entrytime : 5716020164554 nsecs
+  .idle_waketime  : 5715996828804 nsecs
+  .idle_exittime  : 5715997239198 nsecs
+  .idle_sleeptime : 2046275306597 nsecs
+  .last_jiffies   : 541601
+  .next_jiffies   : 541612
+  .idle_expires   : 5716000000000 nsecs
+jiffies: 542013
+
+
+Tick Device: mode:     1
+Clock Event Device: goldfish_timer
+ max_delta_ns:   4294967295
+ min_delta_ns:   1
+ mult:           1
+ shift:          0
+ mode:           3
+ next_event:     5720140000000 nsecs
+ set_next_event: goldfish_timer_set_next_event
+ set_mode:       goldfish_timer_set_mode
+ event_handler:  hrtimer_interrupt
+

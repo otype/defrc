@@ -1,0 +1,93 @@
+lrwxr-xr-x root     shell             2009-02-06 00:36 dumpcrash -> dumpstate
+-rwxr-xr-x root     shell         189 2009-02-06 00:34 am
+-rwxr-xr-x root     shell        3266 2009-02-06 00:34 dumpstate
+-rwxr-xr-x root     shell         205 2009-02-06 00:34 monkey
+-rwxr-xr-x root     shell         193 2009-02-06 00:34 itr
+-rwxr-xr-x root     shell         191 2009-02-06 00:34 pm
+-rwxr-xr-x root     shell         201 2009-02-06 00:34 input
+-rwxr-xr-x root     shell         192 2009-02-06 00:34 svc
+-rwxr-xr-x root     shell         404 2009-02-06 00:36 ssltest
+-rwxr-xr-x root     shell        5424 2009-02-06 00:40 fillup
+-rwxr-xr-x root     shell       40372 2009-02-06 00:40 dhcpcd
+-rwxr-xr-x root     shell       71312 2009-02-06 00:40 linker
+-rwxr-xr-x root     shell       18024 2009-02-06 00:40 debuggerd
+-rwxr-xr-x root     shell       13944 2009-02-06 00:40 hostapd_cli
+-rwxr-xr-x root     shell        9656 2009-02-06 00:40 logwrapper
+-rwxr-sr-x root     net_raw     26628 2009-02-06 00:40 ping
+-rwxr-xr-x root     shell       86936 2009-02-06 00:40 sh
+-rwxr-xr-x root     shell       18896 2009-02-06 00:40 hciattach
+-rwxr-xr-x root     shell        9736 2009-02-06 00:40 logcat
+-rwxr-xr-x root     shell       46460 2009-02-06 00:40 sdptool
+-rwxr-xr-x root     shell        9828 2009-02-06 00:40 servicemanager
+-rwxr-xr-x root     shell      121728 2009-02-06 00:40 dbus-daemon
+-rwxr-xr-x root     shell        9676 2009-02-06 00:40 debug_tool
+-rwxr-xr-x root     shell        5460 2009-02-06 00:40 dvz
+-rwxr-xr-x root     shell        9640 2009-02-06 00:40 flash_image
+-rwxr-xr-x root     shell      178716 2009-02-06 00:40 hcid
+-rwxr-xr-x root     shell        5428 2009-02-06 00:40 htclogkernel
+-rwxr-xr-x root     shell       17996 2009-02-06 00:40 mountd
+-rwxr-xr-x root     shell       14020 2009-02-06 00:40 installd
+-rwxr-xr-x root     shell        9720 2009-02-06 00:40 qemud
+-rwxr-xr-x root     shell       68484 2009-02-06 00:40 toolbox
+-rwxr-xr-x root     shell        5328 2009-02-06 00:40 radiooptions
+-rwxr-xr-x root     shell      269244 2009-02-06 00:40 hostapd
+lrwxr-xr-x root     shell             2009-02-06 00:40 id -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 ifconfig -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 iftop -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 ioctl -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 kill -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 insmod -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 ln -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 log -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 mkdir -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 ls -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 lsmod -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 mkdosfs -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 mount -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 mv -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 netstat -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 notify -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 printenv -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 ps -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 reboot -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 rmdir -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 rm -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 renice -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 rmmod -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 route -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 schedtop -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 setconsole -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 setprop -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 sendevent -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 smd -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 sleep -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 sync -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 stop -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 start -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 top -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 umount -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 vmstat -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 wipe -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 watchprops -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 cat -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 chmod -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 cmp -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 date -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 df -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 dd -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 getevent -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 getprop -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 dmesg -> toolbox
+lrwxr-xr-x root     shell             2009-02-06 00:40 hd -> toolbox
+-rwxr-sr-x root     inet         5616 2009-02-06 00:40 netcfg
+-rwxr-xr-x root     shell        9724 2009-02-06 00:40 dumpsys
+-rwxr-xr-x root     shell        5540 2009-02-06 00:40 playmp3
+-rwxr-xr-x root     shell        9764 2009-02-06 00:40 service
+-rwxr-xr-x root     shell        5524 2009-02-06 00:40 sdutil
+-rwxr-xr-x root     shell        5604 2009-02-06 00:40 rild
+-rwxr-xr-x root     shell        5420 2009-02-06 00:40 dalvikvm
+-rwxr-xr-x root     shell        9644 2009-02-06 00:40 dexopt
+-rwxr-xr-x root     shell        5340 2009-02-06 00:40 surfaceflinger
+-rwxr-xr-x root     shell        5564 2009-02-06 00:40 app_process
+-rwxr-xr-x root     shell        5364 2009-02-06 00:40 mediaserver
+-rwxr-xr-x root     shell        5332 2009-02-06 00:40 system_server

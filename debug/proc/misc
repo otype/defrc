@@ -1,0 +1,11 @@
+ 54 network_throughput
+ 55 network_latency
+ 56 cpu_dma_latency
+ 57 binder
+ 58 log_radio
+ 59 log_events
+ 60 log_main
+ 61 alarm
+  1 psaux
+ 62 ashmem
+ 63 eac

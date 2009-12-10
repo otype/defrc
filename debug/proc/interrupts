@@ -1,0 +1,14 @@
+           CPU0
+  1:          1    goldfish  goldfish_pdev_bus
+  3:     381905    goldfish  Goldfish Timer Tick
+  4:          0    goldfish  goldfish_tty
+ 10:          0    goldfish  goldfish_rtc
+ 11:        342    goldfish  goldfish_tty
+ 12:      53725    goldfish  eth0
+ 13:       2358    goldfish  goldfish_fb
+ 14:          1    goldfish  goldfish_audio
+ 15:          0    goldfish  goldfish-battery
+ 16:          1    goldfish  goldfish-events-keypad
+ 17:          1    goldfish  goldfish_switch
+ 18:          0    goldfish  goldfish_switch
+Err:          0

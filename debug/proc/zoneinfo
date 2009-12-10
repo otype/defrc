@@ -1,0 +1,31 @@
+Node 0, zone      DMA
+  pages free     1972
+        min      312
+        low      390
+        high     468
+        scanned  0 (a: 0 i: 0)
+        spanned  24576
+        present  24384
+    nr_free_pages 1972
+    nr_inactive  1900
+    nr_active    15899
+    nr_anon_pages 8041
+    nr_mapped    7257
+    nr_file_pages 9764
+    nr_dirty     0
+    nr_writeback 0
+    nr_slab_reclaimable 2013
+    nr_slab_unreclaimable 609
+    nr_page_table_pages 618
+    nr_unstable  0
+    nr_bounce    0
+    nr_vmscan_write 0
+        protection: (0, 0, 0)
+  pagesets
+    cpu: 0
+              count: 3
+              high:  18
+              batch: 3
+  all_unreclaimable: 0
+  prev_priority:     12
+  start_pfn:         0

@@ -1,0 +1,24 @@
+Processor	: ARM926EJ-S rev 5 (v5l)
+BogoMIPS	: 262.14
+Features	: swp half thumb fastmult vfp edsp java 
+CPU implementer	: 0x41
+CPU architecture: 5TEJ
+CPU variant	: 0x0
+CPU part	: 0x926
+CPU revision	: 5
+Cache type	: write-through
+Cache clean	: not required
+Cache lockdown	: not supported
+Cache format	: Harvard
+I size		: 4096
+I assoc		: 4
+I line length	: 32
+I sets		: 32
+D size		: 65536
+D assoc		: 4
+D line length	: 32
+D sets		: 512
+
+Hardware	: Goldfish
+Revision	: 0000
+Serial		: 0000000000000000

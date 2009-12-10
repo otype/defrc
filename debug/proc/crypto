@@ -1,0 +1,45 @@
+name         : deflate
+driver       : deflate-generic
+module       : kernel
+priority     : 0
+refcnt       : 1
+type         : compression
+
+name         : des3_ede
+driver       : des3_ede-generic
+module       : kernel
+priority     : 0
+refcnt       : 1
+type         : cipher
+blocksize    : 8
+min keysize  : 24
+max keysize  : 24
+
+name         : des
+driver       : des-generic
+module       : kernel
+priority     : 0
+refcnt       : 1
+type         : cipher
+blocksize    : 8
+min keysize  : 8
+max keysize  : 8
+
+name         : sha1
+driver       : sha1-generic
+module       : kernel
+priority     : 0
+refcnt       : 1
+type         : digest
+blocksize    : 64
+digestsize   : 20
+
+name         : md5
+driver       : md5-generic
+module       : kernel
+priority     : 0
+refcnt       : 1
+type         : digest
+blocksize    : 64
+digestsize   : 16
+

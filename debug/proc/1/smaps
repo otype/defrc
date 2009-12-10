@@ -1,0 +1,54 @@
+00008000-0001f000 r-xp 00000000 00:01 26         /init
+Size:                 92 kB
+Rss:                  80 kB
+Pss:                  80 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:        80 kB
+Private_Dirty:         0 kB
+Referenced:           64 kB
+0001f000-00020000 rw-p 00017000 00:01 26         /init
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+00020000-0002c000 rwxp 00020000 00:00 0          [heap]
+Size:                 48 kB
+Rss:                  48 kB
+Pss:                  48 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:        48 kB
+Referenced:           48 kB
+40000000-40001000 r--p 40000000 00:00 0 
+Size:                  4 kB
+Rss:                   4 kB
+Pss:                   4 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         4 kB
+Referenced:            4 kB
+40001000-40009000 rw-s 00000000 00:08 187        /system_properties (deleted)
+Size:                 32 kB
+Rss:                  32 kB
+Pss:                  17 kB
+Shared_Clean:          0 kB
+Shared_Dirty:         16 kB
+Private_Clean:         0 kB
+Private_Dirty:        16 kB
+Referenced:           16 kB
+befe8000-beffd000 rwxp befeb000 00:00 0          [stack]
+Size:                 84 kB
+Rss:                   8 kB
+Pss:                   8 kB
+Shared_Clean:          0 kB
+Shared_Dirty:          0 kB
+Private_Clean:         0 kB
+Private_Dirty:         8 kB
+Referenced:            8 kB
