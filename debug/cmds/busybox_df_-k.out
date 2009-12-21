@@ -1,7 +1,0 @@
-Filesystem           1k-blocks      Used Available Use% Mounted on
-tmpfs                    47284         0     47284   0% /dev
-tmpfs                     4096         0      4096   0% /sqlite_stmt_journals
-/dev/block/mtdblock0     65536     44408     21128  68% /system
-/dev/block/mtdblock1     65536     36192     29344  55% /data
-/dev/block/mtdblock2     65536      1156     64380   2% /cache
-/dev/block/mmcblk0     2088960   2088958         2 100% /sdcard

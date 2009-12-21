@@ -1,6 +1,0 @@
-/dev: 47284K total, 0K used, 47284K available (block size 4096)
-/sqlite_stmt_journals: 4096K total, 0K used, 4096K available (block size 4096)
-/system: 65536K total, 44408K used, 21128K available (block size 4096)
-/data: 65536K total, 36292K used, 29244K available (block size 4096)
-/cache: 65536K total, 1156K used, 64380K available (block size 4096)
-/sdcard: 2088960K total, 2088958K used, 2K available (block size 2048)

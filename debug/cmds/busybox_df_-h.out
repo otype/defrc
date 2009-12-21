@@ -1,7 +1,0 @@
-Filesystem                Size      Used Available Use% Mounted on
-tmpfs                    46.2M         0     46.2M   0% /dev
-tmpfs                     4.0M         0      4.0M   0% /sqlite_stmt_journals
-/dev/block/mtdblock0     64.0M     43.4M     20.6M  68% /system
-/dev/block/mtdblock1     64.0M     35.3M     28.7M  55% /data
-/dev/block/mtdblock2     64.0M      1.1M     62.9M   2% /cache
-/dev/block/mmcblk0        2.0G      2.0G      2.0k 100% /sdcard

@@ -1,6 +1,0 @@
-require File.dirname(__FILE__) + '/mod_parser_helper'
-require File.dirname(__FILE__) + '/mod_skeletton'
-require File.dirname(__FILE__) + '/lib_helpers'
-require File.dirname(__FILE__) + '/lib_table_parser'
-require File.dirname(__FILE__) + '/lib_keyval_table_parser'
-require File.dirname(__FILE__) + '/lib_whole_line_table_parser'

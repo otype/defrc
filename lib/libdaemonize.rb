@@ -48,8 +48,6 @@ module Daemon
         start(daemon)
       when 'test'
         test(daemon)
-      when 'running'
-        running(daemon)
       else
         puts ">>> ERROR: Invalid command!"
         puts ">>> Please run with appropriate paramater:"
@@ -63,7 +61,7 @@ module Daemon
     def self.start(daemon)
       puts ">>> Daemonizing ..."
       fork do
-        Process.setsid        
+        Process.setsid
         exit if fork
         PidFile.store(daemon, Process.pid)
         Dir.chdir WorkingDirectory
@@ -74,11 +72,6 @@ module Daemon
         trap("TERM") {daemon.stop; exit}
         daemon.start
       end
-    end
-
-    def self.running(daemon)
-      puts "inside module"
-      daemon.running
     end
 
     def self.stop(daemon)

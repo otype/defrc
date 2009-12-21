@@ -1,5 +1,0 @@
-buddyinfo
-schedstat
-<pid>/schedstat
-<pid>/stat
-<pid>/statm

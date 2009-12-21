@@ -1,4 +1,0 @@
-dev:    size   erasesize  name
-mtd0: 04000000 00020000 "system"
-mtd1: 04000000 00020000 "userdata"
-mtd2: 04000000 00020000 "cache"
