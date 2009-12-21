@@ -25,11 +25,7 @@ class CLProcPidStatus < CollectorModule
   end
   
   def self.run(pid)
-    begin
-      ((process(pid).merge(pid_sched(pid))).merge({ "TIME" => "#{formatted_time}" })).inspect.gsub("=>",":")
-    rescue Exception -> msg
-      log_error(msg)
-    end      
+    ((process(pid).merge(pid_sched(pid))).merge({ "TIME" => "#{formatted_time}" })).inspect.gsub("=>",":")
   end
 
   def self.debug

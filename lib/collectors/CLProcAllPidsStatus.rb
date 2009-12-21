@@ -25,11 +25,7 @@ class CLProcAllPidsStatus < CollectorModule
   end
   
   def self.run
-    begin
-      (process.merge({ "TIME" => "#{formatted_time}" })).inspect.gsub("=>",":").gsub("\\x00", " ")
-    rescue Exception -> msg
-      log_error(msg)
-    end
+    (process.merge({ "TIME" => "#{formatted_time}" })).inspect.gsub("=>",":").gsub("\\x00", " ")
   end
   
   private

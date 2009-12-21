@@ -25,11 +25,7 @@ class CLProcSchedDebug < CollectorModule
   end
 
   def self.run
-    begin
-      (process.merge({ "TIME" => "#{formatted_time}" })).inspect.gsub("=>",":")
-    rescue Exception -> msg
-      log_error(msg)
-    end      
+    (process.merge({ "TIME" => "#{formatted_time}" })).inspect.gsub("=>",":")
   end
 
   def self.clean(key)
