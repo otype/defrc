@@ -1,11 +1,10 @@
 #!/bin/bash
 
+CWD=`pwd`
 DATE=`date "+%Y%m%d_%H%M%S"`
-LOGFILE="${DATE}.def.g1.log"
-LOGFILEZIP="$LOGFILE.gz"
-NEWZIPFILES="new/$LOGFILE.gz"
-
-cd ~/Analysis
+LOGFILE="$CWD/${DATE}.def.g1.log"
+LOGFILEZIP="$CWD/$LOGFILE.gz"
+NEWZIPFILES="$CWD/$LOGFILE.gz"
 
 echo "[Pulling file from device]"
 adb pull /sdcard/def/def.log $LOGFILE

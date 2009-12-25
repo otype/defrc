@@ -1,14 +1,16 @@
 #/bin/bash
 
-#for i in *def.g1.log.gz; do gzcat $i | sed 's/^RUN : //' | grep "^{" | sed 's/:nil/\"\"/g' | gzip > clean_$i; done
-
-#for i in *def.g1.log.gz
 ARGS="$*"
+
 ZCAT="zcat"
-for i in $ARGS
+if [ `uname` == "Darwin" ]; then
+   ZCAT="gzcat
+fi
+
+for arg in $ARGS
 do 
-   echo $i
-   $ZCAT $i | 
+   echo $arg
+   $ZCAT $arg | 
    sed 's/^RUN : //' | 
    grep "^{" | 
    sed 's/:nil/\"\"/g' | 
@@ -17,6 +19,6 @@ do
    sed 's/runnable tasks\\\"\\\"/runnable tasks\\\":\\\"/g' | 
    sed 's/\[0\]\\\"\\\"/\[0\]\\\":\\\"/g' |
    sed 's/\\\"\\\"\\\"/\\\":\\\"\\\"/g' |
-   gzip > clean_$i
+   gzip > clean_$arg
 done
 
